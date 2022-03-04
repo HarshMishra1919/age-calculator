@@ -1,0 +1,65 @@
+.homepage {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(127, 255, 212, 0.123);
+    height: 100vh;
+}
+
+form {
+    display:block;
+    background-color: rgba(15, 15, 248, 0.1);
+    display: flex;
+    flex-direction: column;
+    min-width: 30vw;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+label {
+    margin: 10px;
+    padding: 5px;
+}
+
+span {
+    display: block;
+    font-size: 1.5rem;
+}
+
+input {
+    width: 90%;
+    height: 2rem;
+}
+input, textarea::-webkit-input-placeholder {
+    font-size: 15px;
+}
+
+button {
+
+    display: block;
+	position: relative;
+	margin: 0.5em 0;
+	padding: .8em 2.2em;
+	cursor: pointer;
+	background: #FFFFFF;
+	border: none;
+	border-radius: .4em;
+    align-self: center;
+	text-transform: uppercase;
+	font-size: 1.4em;
+	font-family: "Work Sans", sans-serif;
+	font-weight: 500;
+	letter-spacing: 0.04em;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
